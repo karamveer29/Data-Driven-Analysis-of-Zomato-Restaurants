@@ -8,11 +8,11 @@ The analysis helps understand **customer preferences** and **business patterns**
 ---
 
 ## 🎯 Objectives
-- Analyze restaurant ratings and their distribution  
-- Study customer voting patterns across restaurant types  
-- Understand cost trends for two people  
-- Compare ratings based on online ordering and table booking  
-- Perform correlation analysis on numerical features  
+Analyze restaurant ratings and their distribution  
+Study customer voting patterns across restaurant types  
+Understand cost trends for two people  
+Compare ratings based on online ordering and table booking  
+Perform correlation analysis on numerical features  
 
 ---
 
@@ -30,48 +30,48 @@ The analysis helps understand **customer preferences** and **business patterns**
 ---
 
 ## 🛠️ Technologies & Libraries Used
-- **Python**
-- **Pandas** – Data manipulation  
-- **NumPy** – Numerical operations  
-- **Matplotlib** – Data visualization  
-- **Seaborn** – Statistical visualization  
-- **Jupyter Notebook**
+ **Python**
+ **Pandas** – Data manipulation  
+ **NumPy** – Numerical operations  
+ **Matplotlib** – Data visualization  
+ **Seaborn** – Statistical visualization  
+ **Jupyter Notebook**
 
 ---
 
 ## 🔄 Data Cleaning Steps
-- Converted rating values (e.g., `4.1/5`) into numeric format  
-- Handled missing and invalid values (`NEW`, `-`)  
-- Cleaned and converted cost column to numeric format  
-- Selected numeric columns for correlation analysis  
+Converted rating values (e.g., `4.1/5`) into numeric format  
+Handled missing and invalid values (`NEW`, `-`)  
+Cleaned and converted cost column to numeric format  
+Selected numeric columns for correlation analysis  
 
 ---
 
 ## 📊 Exploratory Data Analysis Performed
-- Restaurant type distribution  
-- Votes by restaurant type  
-- Rating distribution  
-- Cost analysis for two people  
-- Online order vs rating comparison  
-- Table booking vs rating comparison  
-- Correlation heatmap for numerical features  
+Restaurant type distribution  
+Votes by restaurant type  
+Rating distribution  
+Cost analysis for two people  
+Online order vs rating comparison  
+Table booking vs rating comparison  
+Correlation heatmap for numerical features  
 
 ---
 
 ## 📈 Key Insights
-- Delivery and dine-out restaurants dominate the dataset  
-- Higher votes generally correlate with higher ratings  
-- Restaurants offering online ordering tend to receive better ratings  
-- Mid-range pricing restaurants are most common  
-- Ratings show moderate correlation with votes  
+Delivery and dine-out restaurants dominate the dataset  
+Higher votes generally correlate with higher ratings  
+Restaurants offering online ordering tend to receive better ratings  
+Mid-range pricing restaurants are most common  
+Ratings show moderate correlation with votes  
 
 ---
 
 ## 🧠 Business Value
-- Helps restaurant owners understand customer behavior  
-- Identifies popular restaurant categories  
-- Supports pricing and service strategy decisions  
-- Useful for market analysis and business planning  
+Helps restaurant owners understand customer behavior  
+Identifies popular restaurant categories  
+Supports pricing and service strategy decisions  
+Useful for market analysis and business planning  
 
 ---
 
@@ -79,7 +79,7 @@ The analysis helps understand **customer preferences** and **business patterns**
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/karamveer29/Data-Driven-Analysis-of-Zomato-Restaurants/edit/main/README.md
+git clone https://github.com/karamveer29/Data-Driven-Analysis-of-Zomato-Restaurants.git
 
 ### 2️⃣ Install Dependencies
 
@@ -96,7 +96,7 @@ jupyter notebook
 ```
 
 ├── Zomato_data.csv
-├── Zomato_EDA.ipynb
+├── Zomato.ipynb
 └── README.md
 
 ```
