@@ -1,120 +1,111 @@
-# Data-Driven-Analysis-of-Zomato-Restaurants
-🍽️ Zomato Restaurant Insights: An Exploratory Data Analysis
-📌 Project Overview
+# 🍽️ Data-Driven Analysis of Zomato Restaurants
 
-This project performs Exploratory Data Analysis (EDA) on Zomato restaurant data to uncover meaningful insights about restaurant types, ratings, customer voting behavior, online ordering, table booking, and pricing trends.
-The analysis helps understand customer preferences and business patterns using data-driven techniques.
+## 📌 Project Overview
+This project performs **Exploratory Data Analysis (EDA)** on Zomato restaurant data to uncover meaningful insights related to restaurant types, ratings, customer voting behavior, online ordering, table booking, and pricing trends.
 
-🎯 Objectives
+The analysis helps understand **customer preferences** and **business patterns** using data-driven techniques.
 
-Analyze restaurant ratings and distribution
+---
 
-Study customer voting patterns across restaurant types
+## 🎯 Objectives
+- Analyze restaurant ratings and their distribution  
+- Study customer voting patterns across restaurant types  
+- Understand cost trends for two people  
+- Compare ratings based on online ordering and table booking  
+- Perform correlation analysis on numerical features  
 
-Understand cost trends for two people
+---
 
-Compare ratings based on online ordering and table booking
+## 🗂️ Dataset
+**Source:** Zomato restaurant dataset (CSV format)
 
-Perform correlation analysis on numerical features
+### Key Columns
+- `rate`
+- `votes`
+- `listed_in(type)`
+- `online_order`
+- `book_table`
+- `approx_cost(for two people)`
 
-🗂️ Dataset
+---
 
-Source: Zomato restaurant dataset (CSV format)
+## 🛠️ Technologies & Libraries Used
+- **Python**
+- **Pandas** – Data manipulation  
+- **NumPy** – Numerical operations  
+- **Matplotlib** – Data visualization  
+- **Seaborn** – Statistical visualization  
+- **Jupyter Notebook**
 
-Key Columns:
+---
 
-rate
+## 🔄 Data Cleaning Steps
+- Converted rating values (e.g., `4.1/5`) into numeric format  
+- Handled missing and invalid values (`NEW`, `-`)  
+- Cleaned and converted cost column to numeric format  
+- Selected numeric columns for correlation analysis  
 
-votes
+---
 
-listed_in(type)
+## 📊 Exploratory Data Analysis Performed
+- Restaurant type distribution  
+- Votes by restaurant type  
+- Rating distribution  
+- Cost analysis for two people  
+- Online order vs rating comparison  
+- Table booking vs rating comparison  
+- Correlation heatmap for numerical features  
 
-online_order
+---
 
-book_table
+## 📈 Key Insights
+- Delivery and dine-out restaurants dominate the dataset  
+- Higher votes generally correlate with higher ratings  
+- Restaurants offering online ordering tend to receive better ratings  
+- Mid-range pricing restaurants are most common  
+- Ratings show moderate correlation with votes  
 
-approx_cost(for two people)
+---
 
-🛠️ Technologies & Libraries Used
+## 🧠 Business Value
+- Helps restaurant owners understand customer behavior  
+- Identifies popular restaurant categories  
+- Supports pricing and service strategy decisions  
+- Useful for market analysis and business planning  
 
-Python
+---
 
-Pandas – Data manipulation
+## ▶️ How to Run the Project
 
-NumPy – Numerical operations
+### 1️⃣ Clone the Repository
 
-Matplotlib – Data visualization
+git clone https://github.com/karamveer29/Data-Driven-Analysis-of-Zomato-Restaurants/edit/main/README.md
 
-Seaborn – Statistical visualization
+### 2️⃣ Install Dependencies
 
-Jupyter Notebook
+pip install pandas numpy matplotlib seaborn
 
-🔄 Data Cleaning Steps
+### 3️⃣ Run the Notebook
 
-Converted rating values (4.1/5) into numeric format
+jupyter notebook
 
-Handled missing and invalid values (NEW, -)
+---
 
-Cleaned and converted cost column to numeric
+## 📁 Project Structure
 
-Selected numeric columns for correlation analysis
+```
 
-📊 Exploratory Data Analysis Performed
-
-Restaurant type distribution
-
-Votes by restaurant type
-
-Rating distribution
-
-Cost analysis for two people
-
-Online order vs rating comparison
-
-Table booking vs rating comparison
-
-Correlation heatmap for numerical features
-
-📈 Key Insights
-
-Delivery and dine-out restaurants dominate the dataset
-
-Higher votes generally correlate with higher ratings
-
-Restaurants offering online ordering tend to receive better ratings
-
-Mid-range pricing restaurants are most common
-
-Ratings show moderate correlation with votes
-
-🧠 Business Value
-
-Helps restaurant owners understand customer behavior
-
-Identifies popular restaurant categories
-
-Supports pricing and service strategy decisions
-
-Useful for market analysis and business planning
-
-▶️ How to Run the Project
-
-1. Clone the repository:
-
-git clone https://github.com/your-username/zomato-eda-project.git
-
-2. Install dependencies:
-   pip install pandas, numpy, matplotlib, seaborn
-
-3. Open Jupyter Notebook:
-   jupyter notebook
-
-   📌 Project Structure
 ├── Zomato_data.csv
 ├── Zomato_EDA.ipynb
-├── README.md
+└── README.md
 
-🚀 Future Enhancements
+```
+
+---
+
+## 🚀 Future Enhancements
+
+```
 
 Apply machine learning models for rating prediction
 
@@ -124,11 +115,11 @@ Add location-based analysis
 
 Build an interactive dashboard
 
-👤 Author
+```
 
+---
+
+## 👤 Author
 Karamveer Singh
 Aspiring Data Scientist
-📍 India
-
-
-
+📍 Geater Noida 
